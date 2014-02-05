@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="TicketMachine.WS_Multilingual.prilog.xml" tool-id="MultilingualAppToolkit" product-name="TicketMachine.WS" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resources">
+        <trans-unit id="Resources\btnContentAddProduct\Content" translate="yes" xml:space="preserve">
+          <source>Add product to shoppingList</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ShoppingList Produkt hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="Resources\btnContentAddVoucher\Content" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated" state-qualifier="tm-suggestion">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="Resources\btnContentCloseLargeBarcode\Content" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="translated" state-qualifier="tm-suggestion">Schließen</target>
+        </trans-unit>
+        <trans-unit id="Resources\btnContentExpenseLastMonth\Content" translate="yes" xml:space="preserve">
+          <source>Last month</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Letzten Monat</target>
+        </trans-unit>
+        <trans-unit id="Resources\btnContentExpenseLastWeek\Content" translate="yes" xml:space="preserve">
+          <source>Last week</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">letzte Woche</target>
+        </trans-unit>
+        <trans-unit id="Resources\btnContentExpenseLastYear\Content" translate="yes" xml:space="preserve">
+          <source>Last year</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Letztes Jahr</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageAddVoucher\Text" translate="yes" xml:space="preserve">
+          <source>Add Voucher</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gutschein hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageAddVOucherBar\Text" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated" state-qualifier="tm-suggestion">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageAmount\Text" translate="yes" xml:space="preserve">
+          <source>Amount: </source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Betrag</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageCashDesk\Text" translate="yes" xml:space="preserve">
+          <source>Cashdesk: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kasse: </target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageCollected\Text" translate="yes" xml:space="preserve">
+          <source> collected</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gesammelt</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageDescription\Text" translate="yes" xml:space="preserve">
+          <source>Description: </source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Beschreibung:</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageDeskOperator\Text" translate="yes" xml:space="preserve">
+          <source>Desk operator: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Schreibtisch-Betreiber: </target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageExpenseReportBar\Text" translate="yes" xml:space="preserve">
+          <source>Expense report</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Spesenabrechnung</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageLoyaltyCards\Text" translate="yes" xml:space="preserve">
+          <source>Loyalty Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kundenkarten</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyExpenseReport\Text" translate="yes" xml:space="preserve">
+          <source>My expense report</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meine Spesenabrechnung</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyExpenseReportChart\ChartSubTitle" translate="yes" xml:space="preserve">
+          <source>Expenses for the selected time period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aufwendungen für den ausgewählten Zeitraum</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyExpenseReportChart\ChartTitle" translate="yes" xml:space="preserve">
+          <source>Expenses by category</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ausgaben nach Kategorie</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyExpenseReportChartSeriesTitle\SeriesTitle" translate="yes" xml:space="preserve">
+          <source>Categories</source>
+          <target state="translated" state-qualifier="tm-suggestion">Kategorien</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyLoyaltyCards\Text" translate="yes" xml:space="preserve">
+          <source>My loyalty cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meine Kundenkarten</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyReceipts\Text" translate="yes" xml:space="preserve">
+          <source>My receipts</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meine Einnahmen</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyShoppingList\Text" translate="yes" xml:space="preserve">
+          <source>My shoppinglist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meine shoppinglist</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageMyVouchers\Text" translate="yes" xml:space="preserve">
+          <source>My vouchers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meine Gutscheine</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageNutrionalValues\Text" translate="yes" xml:space="preserve">
+          <source>My nutritional report</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mein Ernährungs-Bericht</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageNutritionChart\ChartSubTitle" translate="yes" xml:space="preserve">
+          <source>Nutritional report for the selected time period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ernährungs-Bericht für den ausgewählten Zeitraum</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageNutritionChart\ChartTitle" translate="yes" xml:space="preserve">
+          <source>Nutritional values</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nährwerte</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageNutritionChartSeriesTitle\SeriesTitle" translate="yes" xml:space="preserve">
+          <source>Nutritional values</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nährwerte</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageNutritionReportBar\Text" translate="yes" xml:space="preserve">
+          <source>Nutrition report</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ernährung-Bericht</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessagePieces\Text" translate="yes" xml:space="preserve">
+          <source>Piece(s) </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stück </target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessagePoints\Text" translate="yes" xml:space="preserve">
+          <source> points</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Punkte</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessagePointsCollected\Text" translate="yes" xml:space="preserve">
+          <source> points collected</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> gesammelten Punkte</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessagePointsOf\Text" translate="yes" xml:space="preserve">
+          <source> points of </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Punkte des </target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageProducts\Text" translate="yes" xml:space="preserve">
+          <source>Products</source>
+          <target state="translated" state-qualifier="tm-suggestion">Produkte</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessagePromotions\Text" translate="yes" xml:space="preserve">
+          <source>Promotions: </source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Höherstufungen</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageReceipts\Text" translate="yes" xml:space="preserve">
+          <source>Receipts </source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Empfangsbestätigungen</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageRemainingValue\Text" translate="yes" xml:space="preserve">
+          <source>Remaining value: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Restwert: </target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageShoppingList\Text" translate="yes" xml:space="preserve">
+          <source>SHOPPINGLIST</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">UNIT CONVERTER</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageSignOut\Text" translate="yes" xml:space="preserve">
+          <source>Sign out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Abmelden</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStores\Text" translate="yes" xml:space="preserve">
+          <source>Stores</source>
+          <target state="translated" state-qualifier="tm-suggestion">Speicher</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHours\Text" translate="yes" xml:space="preserve">
+          <source>Opening hours</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Öffnungszeiten</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHoursFri\Text" translate="yes" xml:space="preserve">
+          <source>Fri 9.00 am - 8.00 pm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fr 09-20</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHoursMon\Text" translate="yes" xml:space="preserve">
+          <source>Mon 9.00 am - 6.30 pm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mo 09-18:30</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHoursSat\Text" translate="yes" xml:space="preserve">
+          <source>Sat 9.00 am - 8.00 pm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sa 09-20</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHoursSun\Text" translate="yes" xml:space="preserve">
+          <source>Sun closed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">So geschlossen</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHoursThur\Text" translate="yes" xml:space="preserve">
+          <source>Thu 9.00 am - 6.30 pm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Do 09-18:30</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHoursTue\Text" translate="yes" xml:space="preserve">
+          <source>Tue 9.00 am - 6.30 pm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Di 09-18:30</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresOpeningHoursWed\Text" translate="yes" xml:space="preserve">
+          <source>Wed 9.00 am - 6.30 pm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mi 09-18:30</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageStoresPhoneNumber\Text" translate="yes" xml:space="preserve">
+          <source>tel.</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Tel</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageThanks\Text" translate="yes" xml:space="preserve">
+          <source>Thank you, come again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vielen Dank, kommen wieder</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageTicketNumber\Text" translate="yes" xml:space="preserve">
+          <source>Ticketnumber: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fahren: </target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageTotal\Text" translate="yes" xml:space="preserve">
+          <source>Total:</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">gesamt</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageTotalPrice\Text" translate="yes" xml:space="preserve">
+          <source>Total price:</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gesamtpreis</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageTotalPriceEuro\Text" translate="yes" xml:space="preserve">
+          <source>€ </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">€ </target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageUnit\Text" translate="yes" xml:space="preserve">
+          <source>Unit: </source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Einheit</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageValidUntil\Text" translate="yes" xml:space="preserve">
+          <source>Valid until: </source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gültig bis</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageVouchers\Text" translate="yes" xml:space="preserve">
+          <source>Vouchers </source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Belege</target>
+        </trans-unit>
+        <trans-unit id="Resources\txtMessageYourList\Text" translate="yes" xml:space="preserve">
+          <source>Your list</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ihre Liste</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resources\txtMessageAddress\Text" xml:space="preserve">
+          <source>Address</source>
+          <target state="new">Address</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resources\btnContentSave\Content" xml:space="preserve">
+          <source>Save</source>
+          <target state="new">Save</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resources\txtExpenseLastYearBtn\Text" xml:space="preserve">
+          <source>Last year</source>
+          <target state="new">Last year</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resources\txtExpenseLastWeekBtn\Text" xml:space="preserve">
+          <source>Last week</source>
+          <target state="new">Last week</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resources\txtExpenseLastMonthBtn\Text" xml:space="preserve">
+          <source>Last month</source>
+          <target state="new">Last month</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

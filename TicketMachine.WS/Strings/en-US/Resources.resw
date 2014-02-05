@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnContentAddProduct.Content" xml:space="preserve">
+    <value>Add product to shoppingList</value>
+  </data>
+  <data name="btnContentAddVoucher.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnContentCloseLargeBarcode.Content" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnContentExpenseLastMonth.Content" xml:space="preserve">
+    <value>Last month</value>
+  </data>
+  <data name="btnContentExpenseLastWeek.Content" xml:space="preserve">
+    <value>Last week</value>
+  </data>
+  <data name="btnContentExpenseLastYear.Content" xml:space="preserve">
+    <value>Last year</value>
+  </data>
+  <data name="txtMessageAddVoucher.Text" xml:space="preserve">
+    <value>Add Voucher</value>
+  </data>
+  <data name="txtMessageAddVOucherBar.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="txtMessageAmount.Text" xml:space="preserve">
+    <value>Amount: </value>
+  </data>
+  <data name="txtMessageCashDesk.Text" xml:space="preserve">
+    <value>Cashdesk: </value>
+  </data>
+  <data name="txtMessageCollected.Text" xml:space="preserve">
+    <value> collected</value>
+  </data>
+  <data name="txtMessageDescription.Text" xml:space="preserve">
+    <value>Description: </value>
+  </data>
+  <data name="txtMessageDeskOperator.Text" xml:space="preserve">
+    <value>Desk operator: </value>
+  </data>
+  <data name="txtMessageExpenseReportBar.Text" xml:space="preserve">
+    <value>Expense report</value>
+  </data>
+  <data name="txtMessageLoyaltyCards.Text" xml:space="preserve">
+    <value>Loyalty Cards</value>
+  </data>
+  <data name="txtMessageMyExpenseReport.Text" xml:space="preserve">
+    <value>My expense report</value>
+  </data>
+  <data name="txtMessageMyExpenseReportChart.ChartSubTitle" xml:space="preserve">
+    <value>Expenses for the selected time period</value>
+  </data>
+  <data name="txtMessageMyExpenseReportChart.ChartTitle" xml:space="preserve">
+    <value>Expenses by category</value>
+  </data>
+  <data name="txtMessageMyExpenseReportChartSeriesTitle.SeriesTitle" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="txtMessageMyLoyaltyCards.Text" xml:space="preserve">
+    <value>My loyalty cards</value>
+  </data>
+  <data name="txtMessageMyReceipts.Text" xml:space="preserve">
+    <value>My receipts</value>
+  </data>
+  <data name="txtMessageMyShoppingList.Text" xml:space="preserve">
+    <value>My shoppinglist</value>
+  </data>
+  <data name="txtMessageMyVouchers.Text" xml:space="preserve">
+    <value>My vouchers</value>
+  </data>
+  <data name="txtMessageNutrionalValues.Text" xml:space="preserve">
+    <value>My nutritional report</value>
+  </data>
+  <data name="txtMessageNutritionChart.ChartSubTitle" xml:space="preserve">
+    <value>Nutritional report for the selected time period</value>
+  </data>
+  <data name="txtMessageNutritionChart.ChartTitle" xml:space="preserve">
+    <value>Nutritional values</value>
+  </data>
+  <data name="txtMessageNutritionChartSeriesTitle.SeriesTitle" xml:space="preserve">
+    <value>Nutritional values</value>
+  </data>
+  <data name="txtMessageNutritionReportBar.Text" xml:space="preserve">
+    <value>Nutrition report</value>
+  </data>
+  <data name="txtMessagePieces.Text" xml:space="preserve">
+    <value>Piece(s) </value>
+  </data>
+  <data name="txtMessagePoints.Text" xml:space="preserve">
+    <value> points</value>
+  </data>
+  <data name="txtMessagePointsCollected.Text" xml:space="preserve">
+    <value> points collected</value>
+  </data>
+  <data name="txtMessagePointsOf.Text" xml:space="preserve">
+    <value> points of </value>
+  </data>
+  <data name="txtMessageProducts.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="txtMessagePromotions.Text" xml:space="preserve">
+    <value>Promotions: </value>
+  </data>
+  <data name="txtMessageReceipts.Text" xml:space="preserve">
+    <value>Receipts </value>
+  </data>
+  <data name="txtMessageRemainingValue.Text" xml:space="preserve">
+    <value>Remaining value: </value>
+  </data>
+  <data name="txtMessageShoppingList.Text" xml:space="preserve">
+    <value>SHOPPINGLIST</value>
+  </data>
+  <data name="txtMessageSignOut.Text" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="txtMessageStores.Text" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="txtMessageStoresOpeningHours.Text" xml:space="preserve">
+    <value>Opening hours</value>
+  </data>
+  <data name="txtMessageStoresOpeningHoursFri.Text" xml:space="preserve">
+    <value>Fri 9.00 am - 8.00 pm</value>
+  </data>
+  <data name="txtMessageStoresOpeningHoursMon.Text" xml:space="preserve">
+    <value>Mon 9.00 am - 6.30 pm</value>
+  </data>
+  <data name="txtMessageStoresOpeningHoursSat.Text" xml:space="preserve">
+    <value>Sat 9.00 am - 8.00 pm</value>
+  </data>
+  <data name="txtMessageStoresOpeningHoursSun.Text" xml:space="preserve">
+    <value>Sun closed</value>
+  </data>
+  <data name="txtMessageStoresOpeningHoursThur.Text" xml:space="preserve">
+    <value>Thu 9.00 am - 6.30 pm</value>
+  </data>
+  <data name="txtMessageStoresOpeningHoursTue.Text" xml:space="preserve">
+    <value>Tue 9.00 am - 6.30 pm</value>
+  </data>
+  <data name="txtMessageStoresOpeningHoursWed.Text" xml:space="preserve">
+    <value>Wed 9.00 am - 6.30 pm</value>
+  </data>
+  <data name="txtMessageStoresPhoneNumber.Text" xml:space="preserve">
+    <value>tel.</value>
+  </data>
+  <data name="txtMessageThanks.Text" xml:space="preserve">
+    <value>Thank you, come again</value>
+  </data>
+  <data name="txtMessageTicketNumber.Text" xml:space="preserve">
+    <value>Ticketnumber: </value>
+  </data>
+  <data name="txtMessageTotal.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="txtMessageTotalPrice.Text" xml:space="preserve">
+    <value>Total price:</value>
+  </data>
+  <data name="txtMessageTotalPriceEuro.Text" xml:space="preserve">
+    <value>€ </value>
+  </data>
+  <data name="txtMessageUnit.Text" xml:space="preserve">
+    <value>Unit: </value>
+  </data>
+  <data name="txtMessageValidUntil.Text" xml:space="preserve">
+    <value>Valid until: </value>
+  </data>
+  <data name="txtMessageVouchers.Text" xml:space="preserve">
+    <value>Vouchers </value>
+  </data>
+  <data name="txtMessageYourList.Text" xml:space="preserve">
+    <value>Your list</value>
+  </data>
+  <data name="txtExpenseLastMonthBtn.Text" xml:space="preserve">
+    <value>Last month</value>
+  </data>
+  <data name="txtExpenseLastWeekBtn.Text" xml:space="preserve">
+    <value>Last week</value>
+  </data>
+  <data name="txtExpenseLastYearBtn.Text" xml:space="preserve">
+    <value>Last year</value>
+  </data>
+  <data name="btnContentSave.Content" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="txtMessageAddress.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+</root>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TicketMachine.Lib.Models.Address">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAIIAAAAAAAAEIAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Domain\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketMachine.Lib.Models.Category">
+    <Position X="11.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Domain\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TicketMachine.Lib.Models.CategorySavingsCard">
+    <Position X="8.5" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAACAA=</HashCode>
+      <FileName>Domain\CategorySavingsCard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicketMachine.Lib.Models.Product">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAAAAAABAAABQAAAAAABAAAAAAAAAFCAA=</HashCode>
+      <FileName>Domain\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicketMachine.Lib.Models.Promotion">
+    <Position X="11.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Promotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketMachine.Lib.Models.SavingsCard">
+    <Position X="3.5" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\SavingsCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketMachine.Lib.Models.ShoppingList">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ShoppingList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketMachine.Lib.Models.Store">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAAAAAAQAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Store.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ProductPackings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TicketMachine.Domain.PCL.Domain.Customer">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAgAAAAAAAAABAAAAABACAAAAAABBAAg=</HashCode>
+      <FileName>Domain\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShoppingList" />
+      <Property Name="Address" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Vouchers" />
+      <Property Name="Receipts" />
+      <Property Name="LoyaltyCards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TicketMachine.Domain.PCL.Domain.LoyaltyCard">
+    <Position X="6" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQgAIAA=</HashCode>
+      <FileName>Domain\loyaltyCard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Store" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicketMachine.Domain.PCL.Domain.ProductPacking">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAwAAAAIAAAAACAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Domain\ProductPacking.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Promotions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TicketMachine.Domain.PCL.Domain.Voucher">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAAAAEAACAACAAAAAAAAAAAAAAAAIAAAQAAAAI=</HashCode>
+      <FileName>Domain\Voucher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketMachine.Lib.Domain.ProductLine">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAAAAAAAACAAAAAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>Domain\ProductLine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductPacking" />
+      <Property Name="Receipt" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicketMachine.Lib.Domain.ProductSavingsCard">
+    <Position X="6" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ProductSavingsCard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicketMachine.Lib.Domain.Receipt">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAACBAAAAAAAAAAAAAQBABABAAAQAAAAA=</HashCode>
+      <FileName>Domain\Receipt.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Store" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ProductLines" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

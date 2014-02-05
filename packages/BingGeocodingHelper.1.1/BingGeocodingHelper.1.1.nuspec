@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>BingGeocodingHelper</id>
+    <version>1.1</version>
+    <title>Bing Geocoding Helper</title>
+    <authors>Mike Williams</authors>
+    <owners>Mike Williams</owners>
+    <projectUrl>https://github.com/cmwilliams/BingGeocodingHelper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bing Geocoding Helper. A wrapper for the Bing Geocoding API. Geocode by either an address or query (i.e. "ATL" or "LGA")</description>
+    <summary>Bing Geocoding Helper. A wrapper for the Bing Geocoding API. Geocode by either an address or query (i.e. "ATL" or "LGA")</summary>
+    <tags>geocoding bing geocode</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.0.3" />
+    </dependencies>
+  </metadata>
+</package>
